@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Assinment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./media-file/footerLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!-- ================= loader ================== -->
+     <div class="loader-content">
+        <img src="./media-file/mrrafi-logo.png" alt="">
+        <span class="loader-circle"></span>
+     </div>
+    <!-- ================= loader ================== -->
+
+    <!-- =======================Mian content======================== -->
+    <div id="main">
+        <nav>
+           <div class="nav-inner">
+            <a class="active" href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Newsletter</a>
+            <img id="navimg" src="./media-file/Logo.png" alt="">
+            <a href="#">Rooms</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <i id="menuopen" class="fa-solid fa-bars"></i>
+           </div>
+        </nav>
+        <div id="sideber">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Newsletter</a>
+            <a href="#">Rooms</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <i id="sideberClose" class="fa-solid fa-xmark"></i>
+        </div>
+        <section class="page1">
+            <img src="./media-file/herosec.png" alt="">
+            <h1>Discover Extraordinary</h1>
+            <h1>Comfort in Hotels</h1>
+
+            <div class="p1conteiners">
+                <h2>Book a Room <br>
+             <span>Discover the perfect space for you!</span></h2>
+            <div class="selections-content">
+                <div class="checkbtn-box">
+                    <p>Date</p>
+                    <div class="checkbtn">
+                        <img src="./media-file/calender.png" alt="">
+                    <h3>Check Available</h3>
+                    </div>
+                </div>
+                <div class="checkContiners">
+                    <p>Person</p>
+                    <div class="checkContent">
+                        <div class="adult-option">
+                            <label for="adults"><img src="./media-file/Vector.png" alt=""></label>
+                         <h2>Adults</h2>
+                        <select name="1" id="adults" value="Adults">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        </div>
+                        <div class="Children-option">
+                            <label for="Children"><img src="./media-file/emoji.png" alt=""></label>
+                        <h2>Children</h2>
+                        <select name="Children" id="Children">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-box">
+                    <p>Person</p>
+                    <button>BOOK NOW</button>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="page2">
+            <div class="p2-grid-imagesConteiners">
+                <div class="grid-img grid-img1">
+                    <img src="./media-file/rooms.png" alt="">
+                    <span class="span"><h1>Rooms</h1></span>
+                </div>
+                <div class="grid-img grid-img2" >
+                    <img src="./media-file/dining.png" alt="">
+                    <span class="span"><h1>Dining</h1></span>
+                </div>
+                <div class="grid-img grid-img3">
+                    <img src="./media-file/confarence.png" alt="">
+                    <span class="span"><h1>Conferences & <br>
+                        Meetings</h1></span>
+                </div>
+                <div class="grid-img grid-img4" >
+                    <img src="./media-file/service.png" alt="">
+                    <span class="span"><h1>Service & Facilities</h1></span>
+                </div>
+                <div class="grid-img grid-img5">
+                    <img  src="./media-file/wedding.png" alt="">
+                    <span class="span"><h1>Wedding Package</h1></span>
+                </div>
+            </div>
+        </section>
+        <section class="page3">
+            <div class="p3Uppercontent">
+                <div class="left-side">
+                    <h3>Special Offers</h3>
+                    <h1>Best offer of the month</h1>
+                    <p>Experience Fantastic Benefits and Obtain Better Rates When You Make a Direct Booking on Our Official Website</p>
+                </div>
+                <h4 id="right-text">View all</h4>
+            </div>
+
+            <div class="p3-gridBox-content">
+                <div class="p3-grdidbox">
+                    <img src="./media-file/honeymoon.png" alt="">
+                    <p>Room</p>
+                    <h2>Honeymoon <span>
+                        <i class="fa-solid fa-user"></i> <span>2</span>
+                    </span></h2>
+                    <h5>Indulge in a Memorable One-Time Romantic Dinner for Two</h5>
+                    <h1>$699 <span>/night</span></h1>
+                </div>
+                <div class="p3-grdidbox">
+                    <img src="./media-file/meeting.png" alt="">
+                    <p>Room</p>
+                    <h2>Meetings <span>
+                        <i class="fa-solid fa-user"></i> <span>30</span>
+                    </span></h2>
+                    <h5>Experience an Exclusively Private Environment to Boost Your Productivity</h5>
+                    <h1>$999 <span>/night</span></h1>
+                </div>
+                <div class="p3-grdidbox">
+                    <img src="./media-file/romantic.png" alt="">
+                    <p>Dining</p>
+                    <h2>Romantic Dining <span>
+                        <i class="fa-solid fa-user"></i> <span>2</span>
+                    </span></h2>
+                    <h5>Indulge in a Memorable One-Time Romantic Dinner for Two</h5>
+                    <h1>$499 <span>/table</span></h1>
+                </div>
+            </div>
+        </section>   
+        <footer>
+            <div class="footer-left">
+                <h1>Newsletter & Special Promo</h1>
+                <div class="footerInput">
+                    <input type="text" placeholder="Enter your email here">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-top">
+                    <img src="./media-file/footerLogo.png" alt="">
+                </div>
+                <div class="footer-right-bottom">
+                    <ul>
+                        <li>About us</li>
+                        <li>Contact</li>
+                        <li>Location</li>
+                    </ul>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Term of Use</li>
+                        <li>Privacy Police</li>
+                    </ul>
+                    <ul>
+                        <li>Services & Facilities</li>
+                        <li>Careers</li>
+                        <li>How to book</li>
+                    </ul>
+                </div>
+            </div>
+            <p>© Copyright Booking Hotels. All right reserved.</p>
+        </footer>
+    </div><!-- =======================Mian div end======================== -->
+    
+    <script src="app.js"></script>
+</body>
+</html>
